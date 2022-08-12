@@ -1,10 +1,11 @@
 import React from 'react'
+import '../styles/canvas.scss'
 
 const Canvas = () => {
     return (
         <div className='canvas'>
-            <canvas></canvas>
-        </div>
+            <canvas width={800} height={600}></canvas>
+        </div >
     )
 }
 
